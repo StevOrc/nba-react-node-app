@@ -1,6 +1,7 @@
-import React from 'react';
-import './App.css';
-import { Layout } from './common';
+import React from "react";
+import "./App.css";
+import { Layout } from "./common";
+// import {Switch, Route} from 'react-router-dom';
 
 function App() {
   return (

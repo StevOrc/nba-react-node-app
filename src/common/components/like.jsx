@@ -1,23 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const Like = (props) => {
-    const renderIsLikeOrUnlike = () => {
-        const {item, isLiked, onLike} = props;
-        const likeClass = 'fa fa-heart';
-        return <i
-            className={isLiked ? likeClass : likeClass + '-o'}
-            style={{cursor: 'pointer'}}
-            onClick={() => onLike(item)}
-            ></i>
-    }
+const Like = ({ item, isLiked, onLike }) => {
+  return (
+    <i
+      className={isLiked ? "fa fa-heart-o" : "fa fa-heart"}
+      onClick={() => onLike(item)}
+      style={{ cursor: "pointer" }}
+    ></i>
+  );
+};
 
-    return (
-        <React.Fragment>
-            <span>
-                {renderIsLikeOrUnlike()}
-            </span>
-        </React.Fragment>
-    );
-}
- 
 export default Like;
