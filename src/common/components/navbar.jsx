@@ -20,12 +20,6 @@ export class Navbar extends Component {
         >
           <Link
             className="nav-link"
-            style={{ color: "white", cursor: "pointer" }}
-          >
-            Home
-          </Link>
-          <Link
-            className="nav-link"
             to="/nba-franchises"
             style={{ color: "white", cursor: "pointer" }}
           >
