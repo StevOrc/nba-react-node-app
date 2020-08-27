@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Footer, NavBar } from "../../common";
+import { Footer, NavBar } from "..";
 import { NbaPlayersContainer, FranchisesContainer } from "../../features";
 import { Switch, Route, Redirect } from "react-router-dom";
 

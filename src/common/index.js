@@ -1,11 +1,11 @@
-export { default as Footer } from "../common/components/footer";
-export { default as Pagination } from "../common/components/Pagination";
+export { default as Footer } from "./components/Footer";
+export { default as Pagination } from "./components/Pagination";
 export { default as Table } from "../common/components/Table";
 export { default as DeleteButton } from "../common/components/DeleteButton";
 export { default as Like } from "../common/components/Like";
 export { default as PlaygroundJS } from "./components/PlaygroundJS";
-export { default as Layout } from "../common/components/layout";
-export { default as NavBar } from "../common/components/navbar";
+export { default as Layout } from "./components/Layout";
+export { default as NavBar } from "./components/Navbar";
 export { default as TableHeader } from "../common/components/TableHeader";
 export { default as TableBody } from "../common/components/TableBody";
 export { default as ListGroup } from "../common/components/ListGroup";
