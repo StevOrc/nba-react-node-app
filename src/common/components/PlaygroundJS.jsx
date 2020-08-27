@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "lodash";
 
-const PlaygroundButton = () => {
+const PlaygroundJS = () => {
   let istested = false;
 
   const persons = [
@@ -145,4 +145,4 @@ const PlaygroundButton = () => {
   );
 };
 
-export default PlaygroundButton;
+export default PlaygroundJS;

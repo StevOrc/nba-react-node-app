@@ -3,6 +3,7 @@ export { default as Pagination } from "../common/components/Pagination";
 export { default as Table } from "../common/components/Table";
 export { default as DeleteButton } from "../common/components/DeleteButton";
 export { default as Like } from "../common/components/Like";
+export { default as PlaygroundJS } from "./components/PlaygroundJS";
 export { default as Layout } from "../common/components/layout";
 export { default as NavBar } from "../common/components/navbar";
 export { default as TableHeader } from "../common/components/TableHeader";
