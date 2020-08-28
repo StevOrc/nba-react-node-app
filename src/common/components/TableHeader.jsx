@@ -9,7 +9,6 @@ class TableHeader extends Component {
       sortColumn.path = path;
       sortColumn.order = "asc";
     }
-    console.log("aaa", sortColumn);
     this.props.onSort(sortColumn);
   };
 
